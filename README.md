@@ -6,7 +6,7 @@ Use the compiler in compiler/main.go to run the code into the format used by any
     treestart-university % go run compiler/main.go compiler/testcode.txt
     Successfully compiled compiler/testcode.txt
     
-Print the code once it's compiled, and place it close to a magnet for it to solve!
+Print the code once it's compiled, and place it close to a magnet to see the code run!
 
 ## Theory
 Encryption is a system of creating an irrational value. Using a message and a process it produces a single output that contains unique and interesting relationships designed though to conceal the message. Even with the message in hand some other way theuniqueness of the encryption set creates "new knowledge" to study!<br>
