@@ -1,0 +1,14 @@
+// the program used to create a stream output with text, words, and images
+prog stream_encode {
+    // combine all sources from known interfaces
+    allow no other sources than magnet
+    
+    // using this following format design (but not interlace yet!) the image
+    create outflow as words, text, images
+    
+    // create one content page and then mark, without descripting yet!
+    push 1 page then mark "<" and exit
+    
+    // through this point no input is allowed but now allow a page marker if available
+    allow page marker as input
+}

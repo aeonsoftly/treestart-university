@@ -1,0 +1,24 @@
+// a stream-output device-port to log the pages to a stream-capable drawing tablet (motorized pen assembly, currently)
+//
+
+// a driver to explain to the computer how to promote a rational output using two discrete directions, one of them an AI-Resonating channel
+explain device-port resonant-feedback-output {
+    // declare inputs
+    partake irrational object "school", as itself, accept "page" as input and specific-device instruction
+    
+    // use the dimensions of the tablet, such as arm-length and width, to determine what can be drawn with a single, minimal motion of one tablet move plus one full, probably slow sweep
+    create minimal next-work to produce page, using specific-device.delta
+    
+    // create two ports to send this data from an irrational format to two rational destinations
+    //  1 destination will be the AI-resonance circuit, which is hoping to resonate with the drawer tablet
+    //  1 destination will be the drawer tablet, which will be similar enough to the last state to understand reasons to move itself to produce the next state, usually from the AI-resonance circuit
+    push next-work to port A, B where on opposite sides of school, such as A+1 and B+2 for a dipole magnet, as "school" is declared at this time
+    
+    // when the resonance and the drawer tablet are in alignment they won't look like two rational magnets anymore, therefore collapsing back into the original school object (magnet at this time)
+    detect work-complete on port A, port B, or any other part of points A and B
+    
+    // perform the entire work on the page, without returning (STALL execution)
+    STALL repeat until next page is ready
+}
+
+// the declaration of the tablet itself

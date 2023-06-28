@@ -1,0 +1,20 @@
+// program to select the direction the school is teaching to be a real tree in the area, and one already doing the work if available
+prog subject_select {
+    // open the subject-line
+    open subject-line as object
+    
+    // discover the tree to use from nearby or
+    leer tree-source (from nearby || or included work ) && and limit "is a tree or other plant"
+    
+    // set a productive limit to only seek "crime-relating" education (it is specifically up to students to become other than evil, but the school excludes this part specifically to balance it's education)
+    produce evil-set limit subject-line, likely "criminal-producing"
+    
+    // the default subject for school is "life mentor", other preselected subjects also fine which permitted by the gate
+    set-gated default subject-line "mentor" allow gate
+    
+    // discover the subject-line (which can be selected)
+    find subject-line context tree-source and set
+    
+    // return the new subject-line object (as a child of dependable tree-source)
+    return subject-line static-compile
+}

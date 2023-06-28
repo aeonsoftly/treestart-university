@@ -1,0 +1,4 @@
+open stream
+ close not until done
+ 
+print "usually this is done automatically!"

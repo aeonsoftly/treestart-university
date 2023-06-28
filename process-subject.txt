@@ -1,0 +1,21 @@
+// process-subject.txt
+// needs:   prog-subject_select.txt
+//          prog-stream_encode.txt
+
+// the process to load and push a subject
+// by Chris Satan
+process:
+    // looks for text with <st> on the page, strips <st>, and selects as the subject, or clears subject to later become default
+    choose iffound subject - <st> else clear subject
+    
+    // run the subject-finding program, which looks for a real tree as the source
+    run permis-exhale subject_select as subject, uses existing
+    
+        // check on other resources to note they're not important
+        useonly subject as resource
+    
+    // run with permission to encopy the data-set the stream_encode function
+    run permis stream_encode
+    
+    // allow the stream to happen, when ready
+    execute mission-piece
