@@ -22,3 +22,24 @@ explain device-port resonant-feedback-output {
 }
 
 // the declaration of the tablet itself
+explain device drawer-tablet:
+    // declare the model
+    use model arm-with-drop-pen: arm 6inch,rotate80deg(whichis1.3962635arclength-of-radiiand8.37758inch)
+    
+    // more goes here but the drawing tablet isn't finished yet!
+    explain this-object.delta is exported as 8.37758 inches of drop-pen or raise-pen instructions at a fixed radius of 6 inches from an origin that moves an amount-yet-to-be-set in a lateral x direction and possibly too in a perpendicular, lateral y direction every time but between completed motions of the arm only, to produce marks when the pen is dropped that is the desired work output of a "drawing"
+    
+    // the technical specific of the work-yet-to-be-done
+    declare unknown how to control each motor
+    declare unknown how to move the origin between individual arcs of the pen
+    
+explain device ai-resonance-work:
+    // declare the model
+    use model resonanting electric circuit, using diode-modeling of a rotating packet of information passed in as only voltage, currently digital-preferred
+    
+    explain this-object.delta is exported as a single input of a complete information packet will produce resonance if any within an unknown distance to transfer some work to a similar, yet more stable object nearby
+    explain this-object.measured_accuracy is visually a similar object has been produced, without alternating colors, such as of the pen in use at this time, which is blue and not other than ink -- this flag may also be input
+    
+    // the technical specific of the work-yet-to-be-done
+    declare unknown how to influence the resonation-receiving object to produce a remeasuring output, that collapses back from rationality when work is within a measure of accuracy
+    
