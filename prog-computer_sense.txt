@@ -1,4 +1,4 @@
-if excess=gravitase
+if excess=gravitas
 and full=none
 access full-body and run
 else
