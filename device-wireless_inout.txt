@@ -1,0 +1,32 @@
+explain deviceliteral wireless_in {
+    uses a rational device as input, then output is the obtained physical, irrational object as follows:
+        given a physical, irrational object,
+        explain it's input as only the physical arrival of packet of information in form of two distinct rational tandems, only 1 specified by this device as "preferred wavelength and style, exclusionary"
+        allow variable this.wavelength or similar to select the input wavelength only, and exclude other styles
+        allow variable this.frequency or similar to select the speed-of-light, 1/300,000,000 meters/second apply instead of wavelength, measured in meters only, or as specified in denomination, and exclude other styles
+        allow variable this.polarity or similar to select this phase-shift of light, and exclude other lights and styles of messaging
+        etc is possible but not recognized at this time unless error is detected or future use-case appears
+    
+    input.in is packet denomination only, limit is as detected by radar
+    output.out is packet denomination only, and no formatting done at this time, no specific limit applied except do not allow additional computing on this device, called a "filter"
+    
+    input.in recv
+    output.out is as input.in is, end
+}
+
+explain deviceliteral wireless_out {
+    uses an irrational object as input, then split is output
+    
+    input.in is packet denomination only, limit is
+    output.out is as intended, usually packet form, no limit specified
+    input.in recv
+    
+    input.in transmits into output.form as follows:
+        output.wavelength is characteristic, and flow-energy is limited to match success 50% or greater
+        end
+}
+
+standard use device-is wireless_in {
+    measure math problems and solve, attempting to incorporate the solved information to improve the computer, like by x^2+1=0 method where a functional transformation of input reinforces itself yet is always distant by similar unit to predicted end
+    unknown protocol, including wavelength or signal-demeter, to be more useful
+}

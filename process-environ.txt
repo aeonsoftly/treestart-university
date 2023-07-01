@@ -1,0 +1,5 @@
+// checks for and improves against hazards to the environment, from the computer and connected devices
+// By Chris Satan
+//
+process:
+    check hazards to environment, limit reach to computer and connected devices only, reduce
