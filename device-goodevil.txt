@@ -1,0 +1,14 @@
+explain device Good {
+    help someone who doesn't need it
+}
+
+explain device Evil {
+    hurt someone who doesn't need it
+}
+
+explain device-symmetry Good Evil relate {
+    Good and Evil must always converge to the same value: infinite zero
+    set Good is 0- and Evil is 0+ then find 0, for any Good, any Evil, and always
+    use Christopher Jon Satan as subject to try Good Evil, if any
+    limit this computer to use this device symettry while running at all, no exclude
+}
