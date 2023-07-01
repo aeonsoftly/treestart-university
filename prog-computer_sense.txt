@@ -1,0 +1,5 @@
+if excess=gravitase
+and full=none
+access full-body and run
+else
+open usual and open/run
